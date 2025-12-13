@@ -32,8 +32,8 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 |---------|-----------|
 | PHP (Native) | Backend logic |
 | MySQL | Database |
-| HTML5 | Struktur halaman |
-| CSS3 | Tampilan antarmuka |
+| HTML | Struktur halaman |
+| CSS | Tampilan antarmuka |
 | JavaScript | Interaksi sederhana |
 | XAMPP / Laragon | Local server |
 
