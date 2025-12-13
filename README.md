@@ -45,12 +45,9 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 | Field | Tipe | Keterangan |
 |-----|------|------------|
 | id | INT | Primary Key |
-| nama | VARCHAR(100) | Nama pengguna |
-| email | VARCHAR(150) | Email login |
-| password | VARCHAR(255) | Password |
-| role | ENUM | admin / user |
-| created_at | DATETIME | Waktu dibuat |
-| deleted_at | DATETIME | Soft delete |
+| nama | VARCHAR | Nama pengguna |
+| email | VARCHAR | Email login |
+| password | VARCHAR | Password |
 
 ---
 
@@ -58,9 +55,9 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 | Field | Tipe | Keterangan |
 |-----|------|------------|
 | id_dokter | INT | Primary Key |
-| nama_dokter | VARCHAR(100) | Nama dokter |
-| spesialis | VARCHAR(50) | Spesialis |
-| hari_praktik | VARCHAR(50) | Hari praktik |
+| nama_dokter | VARCHAR | Nama dokter |
+| spesialis | VARCHAR | Spesialis |
+| hari_praktik | VARCHAR | Hari praktik |
 | jam_mulai | TIME | Jam mulai |
 | jam_selesai | TIME | Jam selesai |
 
@@ -70,12 +67,12 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 | Field | Tipe | Keterangan |
 |-----|------|------------|
 | id | INT | Primary Key |
-| nama | VARCHAR(100) | Nama pasien |
+| nama | VARCHAR | Nama pasien |
 | deskripsi_keluhan | TEXT | Keluhan |
 | id_dokter | INT | Relasi dokter |
-| hari_praktik | VARCHAR(50) | Hari praktik |
+| hari_praktik | VARCHAR | Hari praktik |
 | jam_mulai | TIME | Jam praktik |
-| email | VARCHAR(150) | Email pasien |
+| email | VARCHAR | Email pasien |
 
 ---
 
