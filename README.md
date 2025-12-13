@@ -1,3 +1,10 @@
+Siap 👍
+Di bawah ini saya kasih **README.md FULL, rapi, dan SIAP COPAS** ke repository GitHub kamu.
+Tidak perlu edit apa pun (kecuali nama repo/author kalau mau).
+
+---
+
+````md
 # 🏥 Manajemen Rumah Sakit
 
 Project ini merupakan **aplikasi web CRUD Manajemen Rumah Sakit** yang dibuat menggunakan **PHP (Native)** dan **MySQL**.  
@@ -84,16 +91,47 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 ### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/username/manajemen_rumah_sakit.git
-
+````
 
 ### 2️⃣ Pindahkan ke Folder Server
-- **XAMPP** → `htdocs/`
-- **Laragon** → `www/`
+
+* **XAMPP** → `htdocs/`
+* **Laragon** → `www/`
+
+### 3️⃣ Buat Database
+
+1. Buka `phpMyAdmin`
+2. Buat database dengan nama:
+
+   ```sql
+   db_rumah_sakit
+   ```
+3. Import file SQL yang tersedia di project
 
 ---
 
-### 3️⃣ Buat Database
-1. Buka **phpMyAdmin**
-2. Buat database dengan nama:
-   ```sql
-   db_rumah_sakit
+### 4️⃣ Konfigurasi Koneksi Database
+
+Edit file:
+
+```
+config/config.php
+```
+
+```
+$db   = "db_rumah_sakit";
+```
+
+---
+
+### 5️⃣ Jalankan di Browser
+
+```
+http://localhost/manajemen_rumah_sakit
+```
+
+
+
+
+tinggal bilang saja 👍
+```
