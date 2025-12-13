@@ -1,10 +1,3 @@
-Siap 👍
-Di bawah ini saya kasih **README.md FULL, rapi, dan SIAP COPAS** ke repository GitHub kamu.
-Tidak perlu edit apa pun (kecuali nama repo/author kalau mau).
-
----
-
-````md
 # 🏥 Manajemen Rumah Sakit
 
 Project ini merupakan **aplikasi web CRUD Manajemen Rumah Sakit** yang dibuat menggunakan **PHP (Native)** dan **MySQL**.  
