@@ -78,10 +78,8 @@ Aplikasi dijalankan pada **local server** seperti **XAMPP** atau **Laragon**.
 
 ## 🚀 Cara Menjalankan Project
 
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/username/manajemen_rumah_sakit.git
-````
+### 1️⃣ Download Folder atau ZIPnya
+Pastikan nama foldernya "manajemen_rumah_sakit" jika beda bisa diubah dulu
 
 ### 2️⃣ Pindahkan ke Folder Server
 
@@ -89,39 +87,13 @@ git clone https://github.com/username/manajemen_rumah_sakit.git
 * **Laragon** → `www/`
 
 ### 3️⃣ Buat Database
+Buka file sql.txt
 
-1. Buka `phpMyAdmin`
-2. Buat database dengan nama:
-
-   ```sql
-   db_rumah_sakit
-   ```
-3. Import file SQL yang tersedia di project
-
----
-
-### 4️⃣ Konfigurasi Koneksi Database
-
-Edit file:
-
-```
-config/config.php
-```
-
-```
-$db   = "db_rumah_sakit";
-```
-
----
+###4️⃣ Buat Tabel
+Buka file sql.txt
 
 ### 5️⃣ Jalankan di Browser
 
 ```
 http://localhost/manajemen_rumah_sakit
-```
-
-
-
-
-tinggal bilang saja 👍
 ```
